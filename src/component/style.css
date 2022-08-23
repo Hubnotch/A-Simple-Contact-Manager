@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    padding: 0.75rem;
+    margin: 0.8rem;
+    background-color: #fafafa;
+}
+
+.list{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.contact{
+    text-align: center;
+}
+input[type=text]{
+    width: calc(50% - 2rem);
+    padding: .75rem;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
