@@ -24,3 +24,9 @@ input[type=text]{
     margin: 0.5rem 0;
     font-size: 0.95rem;
 }
+
+button{
+    padding: .75rem;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}

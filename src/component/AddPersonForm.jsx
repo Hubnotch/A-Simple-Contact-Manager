@@ -9,9 +9,11 @@ function AddPerson(props) {
         setPerson(e.target.value)
     }
     const handleSubmit = e => {
+        if(person !== ''){
         props.handleSubmit(person);
         setPerson('')
         e.preventDefault();
+        }
     }
     return (
         <div>
